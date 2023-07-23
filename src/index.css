@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom-font.css */
+@font-face {
+  font-family: "Averta Demo"; /* Choose a name for the font family */
+  src: url("./fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf"); /* Replace the path with the actual location of the font file */
+  /* Add more formats (e.g., woff, woff2) if needed for cross-browser support */
+}
+
+@layer base {
+  html {
+    font-family: "Averta Demo";
+  }
+}
