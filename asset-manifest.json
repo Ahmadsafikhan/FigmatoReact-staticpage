@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/FigmatoReact-staticpage/static/css/main.4814cef2.css",
+    "main.js": "/FigmatoReact-staticpage/static/js/main.4a6259ea.js",
+    "static/js/787.310d3c62.chunk.js": "/FigmatoReact-staticpage/static/js/787.310d3c62.chunk.js",
+    "static/media/heroimag.png": "/FigmatoReact-staticpage/static/media/heroimag.5d27b0e3236309a01783.png",
+    "static/media/profilepic.jpg": "/FigmatoReact-staticpage/static/media/profilepic.81a159205953617a5402.jpg",
+    "static/media/moviepic.jpg": "/FigmatoReact-staticpage/static/media/moviepic.3df7df32bd88e8475ad9.jpg",
+    "static/media/Peoplegroup.png": "/FigmatoReact-staticpage/static/media/Peoplegroup.b54c5321c096ba26d341.png",
+    "static/media/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf": "/FigmatoReact-staticpage/static/media/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.8b16fcb0bfff179c926f.ttf",
+    "index.html": "/FigmatoReact-staticpage/index.html",
+    "main.4814cef2.css.map": "/FigmatoReact-staticpage/static/css/main.4814cef2.css.map",
+    "main.4a6259ea.js.map": "/FigmatoReact-staticpage/static/js/main.4a6259ea.js.map",
+    "787.310d3c62.chunk.js.map": "/FigmatoReact-staticpage/static/js/787.310d3c62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4814cef2.css",
+    "static/js/main.4a6259ea.js"
+  ]
+}
