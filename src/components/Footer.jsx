@@ -6,7 +6,6 @@ import Twitter from "../svgs/twitter";
 import Linkedin from "../svgs/Linkedin";
 import Row from "./common/Row";
 import styled from "styled-components";
-import FooterList from "./common/FooterList";
 import footerData from "../FooterData";
 
 const Footer = () => {
