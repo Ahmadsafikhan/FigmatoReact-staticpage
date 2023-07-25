@@ -43,13 +43,12 @@ const Footer = () => {
                     </h1>
                     <ul className="leading-[30px] font-normal">
                       {section.links.map((links, index) => (
-
                         <li key={index}>
                           <a className="text-[14px]" href={links.href}>
                             {links.label}
                           </a>
                         </li>
-                ))}
+                      ))}
                     </ul>
                   </div>
                 ))}
