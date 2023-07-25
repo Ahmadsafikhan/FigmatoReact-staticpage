@@ -10,7 +10,7 @@ const TopHeader = () => {
     <div>
     <Container className="mx-auto py-[37.5px]">
         <Row className="h-[34px] items-center justify-between">
-      <HeaderLogo text="Studios" />
+      <HeaderLogo text="Studios" className='text-[28px]'/>
       <HeaderLinks />
       </Row>
       </Container>

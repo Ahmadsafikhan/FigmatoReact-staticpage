@@ -31,7 +31,7 @@ const Newsletter = () => {
               <input
                 type="text"
                 placeholder="Enter your email address.."
-                className="ml-[-80px] p-5 pr-16 rounded-[60px] shadow-custom text-[16px] text-[#959595] w-[480.8px] h-[80px]"
+                className="ml-[-80px] py-5 pl-[30px] pr-16 rounded-[60px] shadow-custom text-[16px] text-[#959595] w-[480.8px] h-[80px]"
               />
               <Button
                 className="absolute right-[10px] top-1/2 transform -translate-y-1/2 px-[40px] py-[15px] bg-[#2639ED] hover:scale-90 transition-all duration-300 hover:shadow-lg"

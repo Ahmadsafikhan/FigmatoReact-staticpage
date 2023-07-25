@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="container mx-auto">
             <div className="flex font-bold justify-between">
               <div className="max-w-[270px]">
-                <HeaderLogo text="Studios" className="mb-[26px]" />
+                <HeaderLogo text="Studios" className="mb-[26px] text-2xl" />
                 <p className="text-[14px] font-normal text-[#565656] mb-[40px]">
                   Leading digital agency with solid design and development
                   expertise. We build readymade websites, mobile applications,
@@ -46,7 +46,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/">App Design</a>
+                      <a href="/"  className="text-[14px]">App Design</a>
                     </li>
                     <li>
                       <a href="/" className="text-[14px]">
