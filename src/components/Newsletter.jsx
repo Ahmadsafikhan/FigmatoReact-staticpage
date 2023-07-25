@@ -8,8 +8,8 @@ import Dot from "../svgs/Dot";
 
 const Newsletter = () => {
   return (
-    <div>
-      <Container className="mx-auto pt-[250px] mb-[250px]">
+    <div className="mt-[170px] mb-[250px]">
+      <Container className="mx-auto ">
         <div className="flex items-center">
           {/* First div */}
           <div className="relative ml-[80px]">

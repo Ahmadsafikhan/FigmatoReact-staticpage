@@ -47,7 +47,7 @@ const HeroSection = () => {
             <img
               src={heroImage}
               alt=""
-              className="w-[750px] relative left-[93px]"
+              className="w-[754px] relative left-[93px]"
             />
           </div>
           </Row>

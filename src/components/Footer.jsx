@@ -6,6 +6,8 @@ import Twitter from "../svgs/twitter";
 import Linkedin from "../svgs/Linkedin";
 import Row from "./common/Row";
 import styled from "styled-components";
+import FooterList from "./common/FooterList";
+import footerData from "../FooterData";
 
 const Footer = () => {
   return (
@@ -35,86 +37,23 @@ const Footer = () => {
                 </Row>
               </div>
               <nav className="flex gap-x-[75px]">
-                <div>
-                  <h1 className="text-[20px] mb-[24px] font-bold">
-                    What We Do
-                  </h1>
-                  <ul className="leading-[30px] font-normal">
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        Web Design
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/"  className="text-[14px]">App Design</a>
-                    </li>
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        Social Media Manage
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        Market Analysis Project
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h1 className="text-[20px] mb-[24px] font-bold">Company</h1>
-                  <ul className="leading-[30px] font-normal">
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        About Us
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        Career
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        Become Investor
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h1 className="text-[20px] mb-[24px] font-bold">Support</h1>
-                  <ul className="leading-[30px] font-normal">
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        FAQ
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        Business
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h1 className="text-[20px] mb-[24px] font-bold">Contact</h1>
-                  <ul className="leading-[30px] font-normal">
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        Whatsapp
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="text-[14px]">
-                        Support 24
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                {footerData.map((section, index) => (
+                  <div key={index}>
+                    <h1 className="text-[20px] mb-[24px] font-bold">
+                      {section.title}
+                    </h1>
+                    <ul className="leading-[30px] font-normal">
+                      {section.links.map((links, index) => (
+
+                        <li key={index}>
+                          <a className="text-[14px]" href={links.href}>
+                            {links.label}
+                          </a>
+                        </li>
+                ))}
+                    </ul>
+                  </div>
+                ))}
               </nav>
             </div>
 

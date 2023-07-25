@@ -20,7 +20,7 @@ const Client = () => {
             <img src={google} alt="" className="w-[133.76px] h-[43.89px]" />
             <img src={airbnb} alt="" className="w-[147.93px] h-[46.35px]" />
             <img src={uber} alt="" className="w-[147.93px] h-[24.65px]" />
-            <img src={amazon} alt="" className="w-[129.83px] h-[37.88px] mt-3" /> {/* Added mt-2 to move it slightly down */}
+            <img src={amazon} alt="" className="w-[129.83px] h-[37.88px] mt-4" /> {/* Added mt-2 to move it slightly down */}
           </div>
         </div>
         </Container>

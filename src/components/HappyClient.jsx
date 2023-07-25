@@ -31,17 +31,17 @@ const HappyClient = () => {
             <Dot className="absolute top-[-15%] left-[15%] z-[-1]" />
             <Epicircle className="absolute bottom-2 left-[-20px] z-[-4]" />
             <img
-              className="rounded-custom w-[325.8px] shadow-custom mr-[48px]"
+              className="rounded-custom w-[325.8px] shadow-custom mr-[65px]"
               src={profile}
               alt=""
             />
 
-            <div className="w-[412px]">
+            <div className="w-[390px]">
               <h1 className="text-[24px] mb-[20px] font-bold">Matthew Paul</h1>
               <p className="text-[16px] text-[#565656] mb-[40px]">
                 Perfect, very good job! Thank you for the amazing design and
                 work. Really impressed with the high quality and quick
-                turnaround time. Highly recommend.
+                turnaround time.
               </p>
               <div className="flex gap-x-[20px]">
                 <Smallcircle />
@@ -52,7 +52,7 @@ const HappyClient = () => {
               </div>
             </div>
 
-            <div class="grid grid-cols-custom grid-rows-custom gap-4 w-[330px]">
+            <div class="grid grid-cols-custom grid-rows-custom gap-4 w-[318px]">
               <img
                 src={Person1}
                 alt=""
@@ -61,37 +61,37 @@ const HappyClient = () => {
               <img
                 src={Person2}
                 alt=""
-                className="rounded-full col-start-3 col-end-6 row-start-1 justify-self-center hover:scale-110 transition-all duration-300 hover:shadow-lg"
+                className="rounded-full col-start-3 col-end-6 row-start-1 justify-self-center hover:scale-110 transition-all duration-300 hover:shadow-custom"
               />
               <img
                 src={Person3}
                 alt=""
-                className="rounded-full col-start-6 col-end-8 row-start-2 hover:scale-110 transition-all duration-300 hover:shadow-lg"
+                className="rounded-full col-start-6 col-end-8 row-start-2 hover:scale-110 transition-all duration-300 hover:shadow-custom"
               />
               <img
                 src={Person8}
                 alt=""
-                className="rounded-full col-start-3 row-start-3 col-end-7 justify-self-center hover:scale-110 transition-all duration-300 hover:shadow-lg"
+                className="rounded-full col-start-3 row-start-3 col-end-7 justify-self-center hover:scale-110 transition-all duration-300 hover:shadow-custom"
               />
               <img
                 src={Person5}
                 alt=""
-                className="rounded-full col-start-3 col-end-6 row-start-6 row-end-8 hover:scale-110 transition-all duration-300 hover:shadow-lg"
+                className="rounded-full col-start-3 col-end-6 row-start-6 row-end-8 hover:scale-110 transition-all duration-300 hover:shadow-custom"
               />
               <img
                 src={Person6}
                 alt=""
-                className="rounded-full col-start-1 col-end-4 row-start-5 hover:scale-110 transition-all duration-300 hover:shadow-lg"
+                className="rounded-full col-start-1 col-end-4 row-start-5 hover:scale-110 transition-all duration-300 hover:shadow-custom"
               />
               <img
                 src={Person7}
                 alt=""
-                className="rounded-full col-start-5 col-end-8 row-start-5 row-end-7 justify-self-center self-end hover:scale-110 transition-all duration-300 hover:shadow-lg"
+                className="rounded-full col-start-5 col-end-8 row-start-5 row-end-7 justify-self-center self-end hover:scale-110 transition-all duration-300 hover:shadow-custom"
               />
               <img
                 src={Person4}
                 alt=""
-                className="rounded-full col-start-6 col-end-9 row-start-3 row-end-5 justify-self-end self-end hover:scale-110 transition-all duration-300 hover:shadow-lg"
+                className="rounded-full col-start-6 col-end-9 row-start-3 row-end-5 justify-self-end self-end hover:scale-110 transition-all duration-300 hover:shadow-custom"
               />
             </div>
 
