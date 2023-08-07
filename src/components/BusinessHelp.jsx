@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import searchBox from "../images/box-search 1.png";
 import FileImagebackground from "../images/Rectangle 28.png";
 import FileImage from "../images/empty-wallet 1.png";
@@ -15,9 +15,9 @@ import Container from "./common/Container";
 import Epicircle from "../svgs/epicircle";
 
 
-const BusinessHelp = () => {
+const BusinessHelp = forwardRef((props, ref) => {
   return (
-    <div className="overflow-hidden">
+    <div ref={ref} className="overflow-hidden">
       <Container className='pt-[125px] pb-[105px] mx-auto'>
       {/* <div className="w-[1100px] mx-auto py-[55px]"> */}
         <div className="flex  items-center relative">
@@ -80,6 +80,6 @@ const BusinessHelp = () => {
       </Container>
     </div>
   );
-};
+});
 
 export default BusinessHelp;
